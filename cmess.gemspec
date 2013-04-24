@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<ruby-nuggets>, [">= 0.3.3"])
       s.add_runtime_dependency(%q<htmlentities>, [">= 0"])
+      s.add_development_dependency(%q<rspec>, [>=2.0.0])
     else
       s.add_dependency(%q<ruby-nuggets>, [">= 0.3.3"])
       s.add_dependency(%q<htmlentities>, [">= 0"])
